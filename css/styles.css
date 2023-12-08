@@ -118,6 +118,13 @@ button {
 	}
 }
 
+@media (min-width: 1158px) {
+	.head-logo {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+}
+
 .logo-studio {
 	color: #2e2f42;
 }
