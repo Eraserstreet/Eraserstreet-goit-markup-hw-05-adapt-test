@@ -104,7 +104,7 @@ button {
 			rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)
 		),
-		url(../images/people-office.jpg);
+		url(../mobile/people-office-mob.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -116,13 +116,22 @@ button {
 @media (min-device-pixel-ratio: 2),
 	(min-resolution: 192dpi),
 	(min-resolution: 2dppx) {
+	@media (max-width: 767px) {
+		.section-solution {
+			background-image: linear-gradient(
+					rgba(46, 47, 66, 0.7),
+					rgba(46, 47, 66, 0.7)
+				),
+				url(../mobile/people-office-mob@2.jpg);
+		}
+	}
 	@media (min-width: 768px) {
 		.section-solution {
 			background-image: linear-gradient(
 					rgba(46, 47, 66, 0.7),
 					rgba(46, 47, 66, 0.7)
 				),
-				url(../images/people-office@2.jpg);
+				url(../tablet/people-office-tab@2.jpg);
 		}
 		@media (min-width: 1158px) {
 			.section-solution {
@@ -145,7 +154,7 @@ button {
 					rgba(46, 47, 66, 0.7),
 					rgba(46, 47, 66, 0.7)
 				),
-				url(../images/people-office.jpg);
+				url(../tablet/people-office-tab.jpg);
 		}
 		@media (min-width: 1158px) {
 			.section-solution {
