@@ -107,7 +107,7 @@ button {
 	font-family: Raleway, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 1.16;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
@@ -1237,4 +1237,9 @@ button {
 }
 .menu-social-links-icons {
 	fill: #f4f4fd;
+}
+
+.menu-icons-link:hover,
+.menu-icons-link:focus {
+	background-color: #31d0aa;
 }
